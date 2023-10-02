@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Museu Nacional </title>
+
+	<!-- Normalize CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- Estilo customizado -->
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+
+	<div id="container"><!-- inicio container -->
+		
+		<header><!-- inicio header -->
+			<div id="logo">
+				<h1><a href="">Museu Nacional</a></h1>
+			</div>
+
+			<nav><!-- inicio de navegação -->
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Exposições</a></li>
+					<li><a href="#">Pesquisa</a></li>
+					<li><a href="#">Acervo</a></li>
+					<li><a href="#">Videos</a></li>
+					<li><a href="#">Fotos</a></li>
+					<li><a href="#">Contatos</a></li>
+
+				</ul>
+			</nav><!-- final denavegação -->
+
+
+		</header><!-- fim header -->
+
+		<div id="principal"><!--inicio do principal -->
+			<div id="conteudo"><!--inicio conteudo -->
+				<section id="capa">
+					<img src="img/museu.png">
+				</section>
+
+				<section id="postagens">
+					
+					<article id="video">
+						<h3>Conheça o museu</h3>
+
+						<iframe width="310" height="170" src="https://www.youtube-nocookie.com/embed/4rbmjy0S3SA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+					</article>
+
+					<article id="mapa">
+						<h3>Mapa: Encontre o museu</h3>
+
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.5645634638154!2d-9.16403922483815!3d38.7048453580439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd193499628e7b19%3A0xc932f1ff3fad2b24!2sMuseu%20Nacional%20de%20Arte%20Antiga!5e0!3m2!1spt-PT!2spt!4v1687985343386!5m2!1spt-PT!2spt" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+					</article>
+
+					<article id="exposicoes">
+						<h3>Exposições</h3>
+						<ul>
+							<li>
+								<a href="#"> Coleções de arte</a>
+							</li>
+
+							<li>
+								<a href="#">Preguiça gigante e tigre-dentes-de-sabre</a>
+							</li>
+
+							<li>
+								<a href="#">Artefatos históricos</a>
+							</li>
+
+							<li>
+								<a href="#">Exposições científicas</a>
+							</li>
+
+							<li>
+								<a href="#">Exposições interativas</a>
+							</li>
+
+							<li>
+								<a href="#">Acervos etnográficos</a>
+							</li>
+
+							<li>
+								<a href="#">Conservação e restauração</a>
+							</li>
+
+							<li>
+								<a href="#"><strong>Veja todos (57)</strong></a>
+							</li>
+
+						</ul>
+					</article>
+
+					<article id="historia">
+						<h3>200 anos de história</h3>
+						<p>
+							O Museu Nacional é um lugar encantador que abriga tesouros históricos, obras de arte e exposições científicas. É um portal para o passado, onde os visitantes podem explorar diferentes épocas e descobrir a riqueza cultural e científica de uma nação. O museu oferece pinturas vibrantes, exposições científicas e artefatos históricos que nos conectam com nossas raízes e despertam nossa curiosidade. É um refúgio de conhecimento e uma fonte de inspiração, incentivando a preservação do patrimônio para as futuras gerações.
+						</p>
+						<a href=""><strong>Leia mais</strong></a>
+					</article>
+
+				</section>
+
+			</div><!--fim conteudo -->
+
+			<aside><!--inicio do aside -->
+				<section id="depoimento">
+					<img src="img/depoimento1.png" style="width:270 px; height:270px;">
+				</section>
+
+				<section id="visita"><!--inicio da seção visita -->
+					<h4>Faça uma visita</h4>
+					<form>
+						<fieldset>
+
+							<legend>Selecione uma data</legend>
+
+							<label for="data">Data</label>
+							<input class="campo" type="text" id="data" value="dd/mm/aaaa">
+							<br> <label for="qtd">Quantidade de pessoas</label>
+							<input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+						</fieldset>
+
+						<input class="botao" type="submit" value="Verificar disponibilidade">
+
+					</form>
+				</section><!--fim da seção visita -->
+				<section id="galeria">
+					<h4>Galeria de Fotos</h4>
+
+					<a href="">
+						<img src="img/imagem1.jpg" height="93" width="93" alt="imagens da galeria">
+					</a>
+
+					<a href="">
+						<img src="img/imagem2.jpg" height="93" width="93" alt="imagens da galeria">
+					</a>
+
+					<a href="">
+						<img src="img/imagem3.jpg" height="93" width="93" alt="imagens da galeria">
+					</a>
+
+					<a href="">
+						<img src="img/imagem4.jpg" height="93" width="93" alt="imagens da galeria">
+					</a>
+				</section>
+
+			</aside><!--fim do aside -->
+
+			<footer style="clear: both;">
+				<p>
+					<a href="#">Home</a>
+					<a href="#">Exposições</a>
+					<a href="#">Pesquisa</a>
+					<a href="#">Acervo</a>
+					<a href="#">Videos</a>
+					<a href="#">Fotos</a>
+					<a href="#">Contatos</a>
+				</p>
+
+				<p>
+					2023 <a href="#">Museu Nacional </a> - Todos os direitos reservados. <br> Por Kaline Azevedo
+				</p>
+			</footer>
+		
+		</div><!-- fim do principal -->
+
+	</div><!-- Fim de container -->
+
+	
+
+</body>
+</html>
